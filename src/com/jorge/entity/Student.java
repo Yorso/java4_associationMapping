@@ -25,6 +25,7 @@ public class Student {
 	
 	@ManyToOne // Many students to one guide
 	@JoinColumn(name="guide_id") // guide_id is the name of the field in student table, linked to id field in guide table
+	 							 // You say with @JoinColumn annotation that this class is the owner of the relationship
 	private Guide guide;
 	
 	public Student() {}
