@@ -34,7 +34,7 @@ public class Main {
 			logger.debug("beginning transaction");
 			txn.begin(); // Beginning transaction
 
-			logger.debug("setting data in Person object");
+			logger.debug("setting data in Guide and Student objects");
 			Guide guide = new Guide("GD200331", "Homer Simpson", 1200);
 			Student student = new Student("ST109883", "Moe Szyslak", guide);
 			
